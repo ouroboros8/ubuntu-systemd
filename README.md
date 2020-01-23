@@ -1,5 +1,6 @@
 ubuntu-systemd
 --------------
+[![Build Status](https://cloud.drone.io/api/badges/ouroboros8/ubuntu-systemd/status.svg)](https://cloud.drone.io/ouroboros8/ubuntu-systemd)
 
 A build of the ubuntu docker images with systemd installed and set to run as
 PID1 by default. This is primarily useful as a test environment for the
