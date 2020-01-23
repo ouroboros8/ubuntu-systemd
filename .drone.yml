@@ -6,20 +6,20 @@ steps:
   - name: 'build 18.04'
     image: plugins/docker
     settings:
-      repo: ouroborosglyx/ubuntu-systemd
+      repo: glyx/ubuntu-systemd
       dockerfile: Dockerfile.18.04
       tags: [latest, '18.04']
-      username: ouroborosglyx
+      username: glyx
       password:
         from_secret: dockerhub
 
   - name: 'build 16.04'
     image: plugins/docker
     settings:
-      repo: ouroborosglyx/ubuntu-systemd
+      repo: glyx/ubuntu-systemd
       dockerfile: Dockerfile.16.04
       tags: '16.04'
-      username: ouroborosglyx
+      username: glyx
       password:
         from_secret: dockerhub
 
