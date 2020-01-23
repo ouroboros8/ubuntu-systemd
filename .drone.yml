@@ -11,7 +11,7 @@ steps:
       tags: [latest, '18.04']
       username: glyx
       password:
-        from_secret: dockerhub
+        from_secret: docker-hub
 
   - name: 'build 16.04'
     image: plugins/docker
@@ -21,7 +21,7 @@ steps:
       tags: '16.04'
       username: glyx
       password:
-        from_secret: dockerhub
+        from_secret: docker-hub
 
 trigger:
   branch:
