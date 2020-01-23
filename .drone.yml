@@ -22,3 +22,7 @@ steps:
       username: ouroborosglyx
       password:
         from_secret: dockerhub
+
+trigger:
+  branch:
+  - master
